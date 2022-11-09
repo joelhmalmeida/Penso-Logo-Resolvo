@@ -1,16 +1,12 @@
-const myName = "Joel";
-console.log(myName);
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
 
-let myAge = 38;
-console.log(myAge);
+  function result(){
+   document.getElementById('result').innerHTML = getRndInteger(1,10);
+}
 
-let isMyAgeReal = True;
-console.log(isMyAgeReal);
 
-var myCountry = "Portugal";
-console.log(myCountry);
 
-const myFatherName = "Julio";
-console.log(myFatherName);
 
 
